@@ -1,4 +1,4 @@
-public package com.examly.springapp.controller;
+package com.examly.springapp.controller;
 
 import com.examly.springapp.entity.Taskentity;
 import com.examly.springapp.service.TaskService;
@@ -44,6 +44,4 @@ public class TaskController {
         return service.gettaskbyid(id);
     }
 
-} TaskController {
-    
 }
